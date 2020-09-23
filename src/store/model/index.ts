@@ -11,6 +11,7 @@ import {MicroCenter} from './microcenter';
 import {NewEgg} from './newegg';
 import {NewEggCa} from './newegg-ca';
 import {Nvidia} from './nvidia';
+import {Nvidia2} from './nvidia2';
 import {Store} from './store';
 import {OfficeDepot} from './officedepot';
 import {Zotac} from './zotac';
@@ -27,6 +28,7 @@ const masterList = new Map([
 	[NewEgg.name, NewEgg],
 	[NewEggCa.name, NewEggCa],
 	[Nvidia.name, Nvidia],
+	[Nvidia2.name, Nvidia2],
 	[OfficeDepot.name, OfficeDepot],
 	[Zotac.name, Zotac]
 ]);
